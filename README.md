@@ -11,3 +11,8 @@ I would recommend this course to anyone interested in an introduction to artific
 - [ ] Ghostbusters (Hidden Markov Models)
 - [ ] Classification (machine learning)
 
+
+
+#Search Project:
+
+![alt text](https://github.com/ced92/cs188-AI/raw/master/Screenshots/searchProject.gif "A* Search")
