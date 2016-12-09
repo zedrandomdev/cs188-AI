@@ -11,3 +11,21 @@ I would recommend this course to anyone interested in an introduction to artific
 - [ ] Ghostbusters (Hidden Markov Models)
 - [ ] Classification (machine learning)
 
+
+
+#Search Project:
+![alt text](https://github.com/ced92/cs188-AI/raw/master/Screenshots/searchProject.gif "A* Search")
+
+* Goal: To take the optimal path in order to eat all the food pellets
+* Solution: Implemented A* search with a heuristic aimed at measuring:
+ * The distance to the closest food
+ * The distance from that food to the most distant (if any) other food
+
+#MultiAgent Project:
+![alt text](https://github.com/ced92/cs188-AI/raw/master/Screenshots/multiAgent.gif "Expectimax Search and Evaluation function")
+
+* Goal: To get highest score possible and avoid being eaten
+* Solution: Implemented Expectimax pacman agent with a depth of two. Used an evaluation function for estimating the value of terminal states. Evaluation function consisted of a linear combination of variables such as:
+ * Distance to the closest food
+ * Location of power pellets
+ * Ghost scared/not scared
