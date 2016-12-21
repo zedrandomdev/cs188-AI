@@ -8,7 +8,7 @@ I would recommend this course to anyone interested in an introduction to artific
 - [x] Search
 - [x] MultiAgent Search
 - [x] Reinforcement Learning
-- [ ] Ghostbusters (Hidden Markov Models)
+- [x] Hidden Markov Models
 - [ ] Classification (machine learning)
 
 
@@ -29,3 +29,13 @@ I would recommend this course to anyone interested in an introduction to artific
  * Distance to the closest food
  * Location of power pellets
  * Ghost scared/not scared
+
+#HHM Project:
+![alt text](https://github.com/ced92/cs188-AI/raw/master/Screenshots/particleFilter.gif "HHM")
+
+###Details:
+In this project pacman is not able to "see" the ghosts but must sense them using a ***noisy sensor***.
+The brightness of the colors reflect the probability that a ghost is in a particular location. There is one unique color per ghost.
+
+* Goal: To track and eat all the ghosts
+* Solution: Implemented an approximate solution for a hidden markov model (i.e. a particle filter) to track the location for each ghost + a greedy agent for agent 'action' choice.
