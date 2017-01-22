@@ -9,7 +9,7 @@ I would recommend this course to anyone interested in an introduction to artific
 - [x] MultiAgent Search
 - [x] Reinforcement Learning
 - [x] Hidden Markov Models
-- [ ] Classification (machine learning)
+- [x] Classification (machine learning)
 
 
 
